@@ -1,10 +1,6 @@
 caso não consiga executar o comando (como root): $ sudo aplay /usr/share/sounds/sound-icons/xylofon.wav
 
-Basta criar o arquivo: /etc/modprobe.d/default.conf e preencher com: options snd_hda_intel index=1
-
-
-link do guia:
-https://dev.to/setevoy/linux-alsa-lib-pcmdmixc1108sndpcmdmixopen-unable-to-open-slave-38on
+Tente criar o arquivo: /etc/modprobe.d/default.conf e preencher com: options snd_hda_intel index=1
 
 ===============================================================================================
 Os arquivos devem estar com essas permissões:
@@ -16,7 +12,7 @@ Os arquivos devem estar com essas permissões:
 -rwxr-xr-x 1 root root   61 jan 27  2021 som_bateria_descarregada.sh
 -rw-r--r-- 1 root root    5 jan 27  2021 valor
 
-Para isso, basta executar (como root) o script (DENTRO DO DIRETÓRIO DA 'BATERIA'!): 
+Para isso, basta executar (como root) o script (dentro do diretório da bateria): 
 
 #/!/bin/bash
 
