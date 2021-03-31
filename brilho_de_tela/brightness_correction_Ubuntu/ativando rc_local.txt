@@ -1,0 +1,20 @@
+ativando rc.local (script que executa com o boot do sistema): 
+https://www.youtube.com/watch?v=-PuwXjyOYP0
+
+https://www.linuxbabe.com/linux-server/how-to-enable-etcrc-local-with-systemd
+
+conteúdo do "unit file":
+[Unit]
+ Description=/etc/rc.local Compatibility
+ ConditionPathExists=/etc/rc.local
+
+[Service]
+ Type=forking
+ ExecStart=/etc/rc.local start
+ TimeoutSec=0
+ StandardOutput=tty
+ RemainAfterExit=yes
+ SysVStartPriority=99
+
+[Install]
+ WantedBy=multi-user.target
