@@ -1,3 +1,5 @@
+Os scripts foram criados levando em consideração o diretório 'bateria' como estando dentro do diretório '/': /bateria
+
 caso não consiga executar o comando (como root): $ sudo aplay /usr/share/sounds/sound-icons/xylofon.wav
 
 Tente criar o arquivo: /etc/modprobe.d/default.conf e preencher com: options snd_hda_intel index=1
