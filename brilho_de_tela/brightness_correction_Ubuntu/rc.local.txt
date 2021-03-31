@@ -1,4 +1,0 @@
-# Altera o dono do arquivo para o usuário NOME-DO-DIRETORIO
-/bin/chown NOME-DO-DIRETORIO /sys/class/backlight/intel_backlight/brightness
-# Altera o valor do arquivo para 1000 (diminui o brilho máximo antes de iniciar)
-echo 1000 > /sys/class/backlight/intel_backlight/brightness)

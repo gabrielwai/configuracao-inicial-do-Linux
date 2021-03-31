@@ -1,8 +1,0 @@
-#------------------ Script em bash para o ajuste de brihlo de tela ----------------------
-
-# Altera o dono do arquivo para o usuário xxxxx
-chown xxxxx: /sys/class/backlight/intel_backlight/brightness
-# Altera o valor do arquivo para 547 (diminui o brilho máximo antes de iniciar)
-echo 547 > /sys/class/backlight/intel_backlight/brightness
-
-#--------------------------------------------------------------------------------
