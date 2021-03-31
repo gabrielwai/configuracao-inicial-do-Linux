@@ -70,7 +70,6 @@ do
 		
 		#Se $valor for igual a zero, então executa o bash script: "/bateria/bateria_completa.sh". Caso contrário, executa "/bateria/sleep_valor.sh"
 		"${vetor[$indice]}"
-		#sleep `echo "${vetor[$indice]}"` <<< Não precisa mais desse comando
 	fi
 	#break
 done
